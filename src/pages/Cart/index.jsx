@@ -27,7 +27,7 @@ const Cart = ({ cartCount, cartList, cartTotal }) => {
           <div className='orders-menu'>
             <Menu list={cartList} />
           </div>
-          <h3 className='orders-total'>Your Total ${cartTotal}</h3>
+          <h3 className='orders-total'>Your Total ₹{cartTotal}</h3>
         </div>
       )}
       <Footer />

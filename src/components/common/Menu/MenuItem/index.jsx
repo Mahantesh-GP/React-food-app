@@ -43,7 +43,7 @@ const MenuItem = ({
         </p>
       </div>
       <div className='item-foot_desc'>
-        <span className='foot_desc-price'>${price}</span>
+        <span className='foot_desc-price'>₹{price}</span>
         <ButtonAddRemoveItem
           quantity={handleQuantity()}
           handleRemoveItem={() => cartRemoveItem(item)}

@@ -69,20 +69,8 @@ export const menuItemsData = [
     price: 24,
     img: '/images/kisspng-breakfast-cereal-pizza-muesli-meze-vegetarian-cuis-granola-5ac48d852aeb69.1891892315228307251758.png',
   },
-  {
-    id: 11,
-    name: 'cuisine of hawaii',
-    info: 'spicey with garlic and then deep fried to crispy perfection',
-    price: 24,
-    img: '/images/kisspng-cuisine-of-hawaii-l-l-hawaiian-barbecue-shrimp-gam-frozen-chicken-5b1e62f3a9e035.2766282415287180676958.png',
-  },
-  {
-    id: 12,
-    name: 'fried chicken',
-    info: 'spicey with garlic and then deep fried to crispy perfection',
-    price: 24,
-    img: '/images/kisspng-fried-chicken-lemon-chicken-chicken-meat-fine-dining-chicken-meat-5a940a1b75aa22.821205431519651355482.png',
-  },
+
+  
   {
     id: 13,
     name: 'greek salad',

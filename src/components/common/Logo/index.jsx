@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from './logo.png';
 import './styles.css';
 
@@ -7,13 +8,13 @@ const Logo = () => (
     <div>
       <img src={logo} alt='logo' />
       <span>
-        <b>Manya's Kitchen</b>
+      <b><h3>   <Link style={{textDecoration:'none',color:'black'}} to='/'> Manya's Kitchen</Link> </h3></b>
       </span>
     </div>
     <p>
-      <b>Homemade delicious food</b>
+      <b><h2> Homemade delicious food</h2></b>
     </p>
-  </div>
+  </div> 
 );
 
 export default Logo;
